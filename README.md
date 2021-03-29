@@ -4,7 +4,7 @@
 
 We place our benchmarks and implementation in a docker image. The information about our benchmarks is shown below.
 
-| Subject      | <a id="Location">Location</a>                       | <a id="Entry Point">Entry Point</a>                 | <a id="Tokenizer Function">Tokenizer Function</a>            | <a id="Token Definition">Token Definition</a>      |
+| Subject      | <span id="Location">Location</span>                 | <a id="Entry Point">Entry Point</a>                 | <a id="Tokenizer Function">Tokenizer Function</a>            | <a id="Token Definition">Token Definition</a>      |
 | ------------ | --------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- |
 | Clojure      | /root/jpf/jpf-jdart/src/example-javacc-clojure      | test.TestClojure#start                              | clojure.ClojureParserTokenManager#getNextToken               | clojure.ClojureParserConstants                     |
 | FirstOrder   | /root/jpf/jpf-jdart/src/example-firstorderparser    | de.dominicscheurer.fol.test.TestFirstOrder#start    | de.dominicscheurer.fol.parser.FOLParserTokenManager#getNextToken | de.dominicscheurer.fol.parser.FOLParserConstants   |
@@ -36,7 +36,13 @@ cd /root/jpf/jpf-jdart
 ./run_benchmark.sh
 ```
 
-This will produce `/root/jpf/jpf-jdart/coverage.csv` which reports coverage information of our benchmark. 
+This will produce `/root/jpf/jpf-jdart/coverage.csv` which reports coverage information of our benchmark. The contents in `coverage.csv` is like:
+
+```
+Program,Stategy,Method,Branch,Statement
+TestAejccDriver,dfs,baseline,118,320
+TestAejccDriver,dfs,gadse,125,335
+```
 
 ## Stage Separation
 
