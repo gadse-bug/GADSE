@@ -4,7 +4,7 @@
 
 We place our benchmarks and implementation in a docker image. The information about our benchmarks is shown below.
 
-| Subject      | <span id="Location">Location</span>                 | <span id="Entry Point">Entry Point</span>           | <span id="Tokenizer Function">Tokenizer Function</span>      | <span id="Token Definition">Token Definition</span> |
+| Subject      | <span id="Location">Location</span>                 | <span id="Entry-Point">Entry Point</span>           | <span id="Tokenizer-Function">Tokenizer Function</span>      | <span id="Token-Definition">Token Definition</span> |
 | ------------ | --------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
 | Clojure      | /root/jpf/jpf-jdart/src/example-javacc-clojure      | test.TestClojure#start                              | clojure.ClojureParserTokenManager#getNextToken               | clojure.ClojureParserConstants                      |
 | FirstOrder   | /root/jpf/jpf-jdart/src/example-firstorderparser    | de.dominicscheurer.fol.test.TestFirstOrder#start    | de.dominicscheurer.fol.parser.FOLParserTokenManager#getNextToken | de.dominicscheurer.fol.parser.FOLParserConstants    |
