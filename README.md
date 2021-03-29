@@ -98,15 +98,15 @@ We implement the grammar of our benchmarks, which are  used for running [Grammar
 
 ### 2 Which are the entry points of the symbolic execution
 
-> It is shown in Benchmarks table [Entry Point](#Entry Point) column.
+> It is shown in Benchmarks table [Entry Point](#Entry-Point) column.
 
 ### 3 Which is the tokenizer functions
 
-> It is shown in Benchmarks table [Tokenizer Function](#Tokenizer Function) column.
+> It is shown in Benchmarks table [Tokenizer Function](#Tokenizer-Function) column.
 
 ### 4 What was the manual help needed for the separation of the parsing program into different stages 
 
-> The details are shown in Benchmarks table [Stage Separation](#Stage Separation) column.
+> The details are shown in Benchmarks table [Stage Separation](#Stage-Separation) column.
 
 ### 5 Which are the 11 grammars
 
@@ -114,4 +114,4 @@ We implement the grammar of our benchmarks, which are  used for running [Grammar
 
 ### 6 Which tokens there are
 
-> The details are shown in Benchmarks table  [Token Definition](#Token Definition) column.
+> The details are shown in Benchmarks table  [Token Definition](#Token-Definition) column.
